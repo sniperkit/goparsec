@@ -1,10 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "fmt"
-import "bytes"
-import "testing"
-import "net/http"
-import "io/ioutil"
+import (
+	"bytes"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"testing"
+)
 
 func TestHTMLValue(t *testing.T) {
 	data, err := ioutil.ReadFile("testdata/simple.html")

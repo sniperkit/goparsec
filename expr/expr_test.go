@@ -1,11 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package expr
 
-import "testing"
+import (
+	"testing"
 
-import "github.com/prataprc/goparsec"
+	"github.com/sniperkit/snk.fork.goparsec"
+)
 
 var exprText = `4 + 123 + 23 + 67 +89 + 87 *78
 /67-98-		 199`

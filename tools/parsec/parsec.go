@@ -1,16 +1,23 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package main
 
-import "flag"
-import "fmt"
-import "io/ioutil"
-import "os"
+import (
+	"flag"
+	"fmt"
+	"io/ioutil"
+	"os"
 
-import "github.com/prataprc/goparsec"
-import "github.com/prataprc/goparsec/expr"
-import "github.com/prataprc/goparsec/json"
+	"github.com/sniperkit/snk.fork.goparsec"
+	"github.com/sniperkit/snk.fork.goparsec/expr"
+	"github.com/sniperkit/snk.fork.goparsec/json"
+)
 
 var options struct {
 	expr string

@@ -1,16 +1,23 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 // Package json provide a parser to parse JSON string.
 package json
 
-import "strconv"
-import "unicode"
-import "fmt"
-import "unicode/utf8"
-import "unicode/utf16"
+import (
+	"fmt"
+	"strconv"
+	"unicode"
+	"unicode/utf16"
+	"unicode/utf8"
 
-import "github.com/prataprc/goparsec"
+	"github.com/sniperkit/snk.fork.goparsec"
+)
 
 var _ = fmt.Sprintf("dummy print")
 

@@ -1,14 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package parsec
 
-import "io"
-import "os"
-import "fmt"
-import "sort"
-import "strings"
-import "errors"
+import (
+	"errors"
+	"fmt"
+	"io"
+	"os"
+	"sort"
+	"strings"
+)
 
 // Queryable interface to be implemented by all nodes, both terminal
 // and non-terminal nodes constructed using AST object.

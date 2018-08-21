@@ -1,7 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "fmt"
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
 func ExampleAST_And() {
 	// parse a configuration line from ini file.

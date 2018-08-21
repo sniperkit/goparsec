@@ -1,7 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "reflect"
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 func TestNonTerminal(t *testing.T) {
 	nt := &NonTerminal{Name: "NONTERM", Children: make([]Queryable, 0)}

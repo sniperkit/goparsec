@@ -1,13 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "os"
-import "fmt"
-import "bytes"
-import "strings"
-import "testing"
-import "compress/gzip"
-import "io/ioutil"
-import "path/filepath"
+import (
+	"bytes"
+	"compress/gzip"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+)
 
 // TODO: interesting selectors
 //   tagstart *[class=term]

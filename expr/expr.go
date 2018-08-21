@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
@@ -16,10 +21,12 @@
 
 package expr
 
-import "strconv"
-import "fmt"
+import (
+	"fmt"
+	"strconv"
 
-import "github.com/prataprc/goparsec"
+	"github.com/sniperkit/snk.fork.goparsec"
+)
 
 var _ = fmt.Sprintf("dummp print")
 

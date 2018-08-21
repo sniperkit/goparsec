@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
@@ -10,11 +15,13 @@ used with AST combinators and return a Terminal node.
 
 package parsec
 
-import "strings"
-import "strconv"
-import "unicode"
-import "unicode/utf8"
-import "unicode/utf16"
+import (
+	"strconv"
+	"strings"
+	"unicode"
+	"unicode/utf16"
+	"unicode/utf8"
+)
 
 // String parse double quoted string in input text, this parser
 // returns string type as ParsecNode, hence incompatible with

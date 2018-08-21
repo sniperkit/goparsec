@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
 // NonTerminal will be used by AST methods to construct intermediate nodes.

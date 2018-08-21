@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package parsec
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // ParsecNode for parsers return input text as parsed nodes.
 type ParsecNode interface{}

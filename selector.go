@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "fmt"
-import "strings"
-import "regexp"
-import "strconv"
+import (
+	"fmt"
+	"regexp"
+	"strconv"
+	"strings"
+)
 
 // attributes on selector non-terminal:
 // `op`, `name`, `attrkey`, `attrop`, `attrval`, `colonspec`, `colonarg`

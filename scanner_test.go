@@ -1,13 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package parsec
 
-import "bytes"
-import "reflect"
-import "strings"
-import "testing"
-import "fmt"
+import (
+	"bytes"
+	"fmt"
+	"reflect"
+	"strings"
+	"testing"
+)
 
 var _ = fmt.Sprintf("dummy print")
 

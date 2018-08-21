@@ -1,14 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package parsec
 
-import "regexp"
-import "reflect"
-import "unsafe"
-import "unicode"
-import "bytes"
-import "strings"
+import (
+	"bytes"
+	"reflect"
+	"regexp"
+	"strings"
+	"unicode"
+	"unsafe"
+)
 
 // Scanner interface defines necessary methods to match the input stream.
 type Scanner interface {

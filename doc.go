@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package parsec provides a library of parser-combinators. The basic
 idea behind parsec module is that, it allows programmers to compose
 basic set of terminal parsers, a.k.a tokenizers and compose them

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
 // Terminal type can be used to construct a terminal ParsecNode.

@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package json
 
-import "github.com/prataprc/goparsec"
+import (
+	"github.com/sniperkit/snk.fork.goparsec"
+)
 
 func one2one(ns []parsec.ParsecNode) parsec.ParsecNode {
 	if ns == nil || len(ns) == 0 {

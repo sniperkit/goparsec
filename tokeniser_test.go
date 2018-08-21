@@ -1,7 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "testing"
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 var _ = fmt.Sprintf("dummy")
 

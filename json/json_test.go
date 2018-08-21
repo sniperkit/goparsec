@@ -1,15 +1,22 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2013 Goparsec AUTHORS. All rights reserved.
 // Use of this source code is governed by LICENSE file.
 
 package json
 
-import "encoding/json"
-import "io/ioutil"
-import "fmt"
-import "reflect"
-import "testing"
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"reflect"
+	"testing"
 
-import "github.com/prataprc/goparsec"
+	"github.com/sniperkit/snk.fork.goparsec"
+)
 
 var _ = fmt.Sprintf("dummy print")
 

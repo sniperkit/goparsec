@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 language: go
 
 sudo: false
@@ -16,5 +19,5 @@ script:
   - go get ./...
   - make test
   - go test -run=xxx -test.bench=. -test.benchmem=true ./...
-  - $HOME/gopath/bin/goveralls -service=travis-ci -package github.com/prataprc/goparsec
+  - $HOME/gopath/bin/goveralls -service=travis-ci -package github.com/sniperkit/snk.fork.goparsec
   - cd $HOME/gopath/src/github.com/prataprc/monster/testdata; ./checkprods.sh

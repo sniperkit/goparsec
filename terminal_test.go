@@ -1,7 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsec
 
-import "reflect"
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 func TestTerminal(t *testing.T) {
 	term := &Terminal{Name: "TERM", Value: "xyz", Position: 2}

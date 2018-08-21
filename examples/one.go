@@ -1,8 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-import "github.com/prataprc/goparsec"
+	"github.com/sniperkit/snk.fork.goparsec"
+)
 
 var input = `[a,[aa,[aaa],ab,ac],b,c,[ca,cb,cc,[cca]]]`
 
